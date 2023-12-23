@@ -1,0 +1,114 @@
+
+
+
+span {
+    color: #0F2167;
+}
+#heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    margin-left: 50px;
+}
+h1 {
+    font-family: 'Righteous', sans-serif;
+    margin-left: 50px;
+    color: #FFC436;
+    font-size: 50px;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+    float: left;
+    margin-right: 15px;
+}
+div {
+    margin-top: 80px;
+    height: 300px;
+    width: 800px;
+    margin-bottom: 80px;
+    
+}
+#beauty {
+    float: left;
+    
+    margin-left: 50px;
+}
+#construction {
+    float: right;
+    
+    margin-right: 50px;
+} 
+
+footer {
+clear: both;
+float: right;
+font-size: medium;
+color: #0F2167;
+}
+
+h2 {
+font-size: 40px;
+margin-top: -15px;
+font-family: 'Mukta', sans-serif;
+
+}
+#first-paragraph, #second-paragraph {
+font-size: 20px;
+margin-top: -20px;
+}
+
+@media (max-width:700px){
+    h2, #first-paragraph, #second-paragraph {
+        float: none;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+        
+    }
+    #beauty, #construction {
+        float: none;
+        
+        width: 100%;
+        padding: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        margin-right: 0px;
+
+
+
+    }
+    #beauty {
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    #construction {
+        margin-right: 0px;
+        margin-top: 250px;
+    }
+    
+    footer {
+        margin:0px;
+        margin-top: 100px;
+    }
+    h1, #heading {
+        margin-left: 0px;
+    }
+    img {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    div {
+        display: block;
+        width: 100%;
+        margin-top: px;
+    }
+    html {
+        background-color: whitesmoke;
+    }
+}
+
+
